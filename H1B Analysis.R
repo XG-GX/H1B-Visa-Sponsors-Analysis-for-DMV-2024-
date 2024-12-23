@@ -41,5 +41,5 @@ ggplot(data = dmv_employer_stats, aes(x = NUM_H1B, fill = JOB_CATEGORY)) +
 
 # Step 5: Print a summary for each state and category
 print("Summary of H1B Sponsors in DMV (2024):")
-print(dmv_employer_stats, n = 100)  # Replace 100 with the number of rows you want to see
+print(dmv_employer_stats, n = 100)  # Replace 100 with the number of rows
 
